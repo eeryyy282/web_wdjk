@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+::placeholder {
+    color: #1BBD32;
+}
+
+.btnBeli {
+    border: solid 1px #1BBD32;
+    color: #1BBD32;
+}
+
+.btnBeli:hover {
+    border: solid 1px #1BBD32;
+    color: white;
+    background-color: #1BBD32;
+}
+
+.card-sepatu {
+    /* border: 1px solid #D9D9D9; */
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}

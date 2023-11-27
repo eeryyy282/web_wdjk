@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand {
+    color: #1BBD32;
+    font-weight: 600;
+}
+
+.homeLeft .title {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.homeLeft .title .accent {
+    color: #1BBD32;
+}
+
+.homeRight {
+    border-radius: 30px 30px 30px 240px;
+    margin-top: -100px;
+}
+
+.homeButton {
+    border-radius: 30px 5px 30px 5px;
+    width: 180px;
+    height: 50px;
+    background-color: #1BBD32;
+    border: #1BBD32 1px solid;
+    color: white;
+}
+
+.homeButton:hover {
+    background-color: #14a129;
+    border: #14a129 1px solid;
+    color: white;
+}
+
+.homeButton2 {
+    border-radius: 30px 5px 30px 5px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent;
+    color: #1BBD32;
+    border: #1BBD32 1px solid;
+}
+
+.homeButton2:hover {
+    background-color: #14a129;
+    border: #14a129 1px solid;
+    color: white;
+}
+
+
+.homeLeft2 {
+    border-radius: 30px 240px 30px 30px;
+}
+
+.homeRight2 {
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+
+                        @foreach ($shoe as $shoe)
+                        <tr>
+                            <td>{{ $shoe->merk }}</td>
+                            <td>{{ $shoe->tipe }}</td>
+                            {{-- <td>{{ $shoe->harga }}</td> --}}
+                            <td>{{ "Rp. " . number_format($shoe->harga, 0, ',', '.') }}</td>
+                            <td>{{ $shoe->terjual }}</td>
+                            <td>{{ $shoe->rating }}</td>
+                            <td><img src="{{ asset($shoe->foto) }}" alt="" class="img-fluid w-50"></td>
+                            <td>
+                                <a href="{{ route('table-edit', $shoe->id) }}" class="btn btn-warning mb-2 w-100">Edit</a>
+                                <form action="{{ route('table-destroy', $shoe->id) }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <button class="btn btn-danger w-100" data-confirm-delete="true" type="submit">
+                                    Delete
+                                </button>
+                                </form>
+                            </td>
+                        </tr>
+                        @endforeach
