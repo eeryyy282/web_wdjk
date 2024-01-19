@@ -9,7 +9,6 @@
       <a href="{{ route('user.show', $shoe->id) }}" class="text-decoration-none">
         <div class="card h-100 card-sepatu" style="position: relative">
           <img src="{{ asset($shoe->foto) }}" class="card-img-top" alt="...">
-          <button type="button" class="btn btn-primary mt-2 ms-2" style="position: absolute; left: 0; top: 0;">Primary</button>
           <div class="card-body">
             <p class="card-title">{{ $shoe->tipe }}</p>
             <p class="card-text fw-semibold">{{ "Rp " . number_format($shoe->harga, 0, ',', '.') }}</p>

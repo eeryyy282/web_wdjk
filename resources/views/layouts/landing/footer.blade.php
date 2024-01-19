@@ -3,7 +3,7 @@
         <div class="col-5 text-start">
             <span class="footerTitle fs-3">WDJK.ID</span>
             <div class="mt-2">
-                69H7+VGH Karangwaru, Kota Yogyakarta, Daerah Istimewa Yogyakarta
+                Kota Jambi
             </div>
         </div>
         <div class="col-2"></div>

@@ -21,10 +21,6 @@ Route::get('/', function () {
     return view('landing');
 });
 
-// Route::get('/dashboard', function () {
-//     return view('layouts.home.pages.homepage');
-// })->middleware(['auth', 'verified'])->name('dashboard');
-
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', [UserController::class, 'index'])->name('dashboard');
     Route::get('/dashboard', [UserController::class, 'search'])->name('dashboard.search');

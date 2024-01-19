@@ -67,22 +67,11 @@
 @section('scriptData')
 <script>
     function updateData() {
-        // Ambil elemen input file yang telah ada
         var existingFileInput = document.getElementById('existingFile');
-
-        // Ambil elemen input file untuk file baru (opsional)
         var newFileInput = document.getElementById('newFile');
-
-        // Cek apakah file baru dipilih
         if (newFileInput.files.length > 0) {
-            // Jika file baru dipilih, ganti nilai file pada elemen yang telah ada
             existingFileInput.files = newFileInput.files;
         }
-
-        // Lakukan update data yang lain
-        // ... (lakukan sesuai kebutuhan)
-
-        // Reset elemen input file untuk file baru (opsional)
         newFileInput.value = '';
     }
 </script>

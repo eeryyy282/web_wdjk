@@ -45,10 +45,6 @@ class ShoeController extends Controller
             'rating' => $request->rating,
             'foto' => $request->foto,
         ]);
-
-        
-        // Alert::success('Success', 'Successfully added data');
-        // alert()->success('Title','Lorem Lorem Lorem');
         return redirect()->route('dashboard');
     }
 

@@ -16,26 +16,26 @@
         <div class="mt-4 mb-4 fw-medium">
             <div>Pilih Ukuran:</div>
             <!-- <input class="btn-check" type="radio" name="ukuran" value="40"> 40 -->
-            <input type="radio" class="btn-check" name="ukuran" value="36" id="option1 success-outlined" autocomplete="off">
+            <input type="radio" class="btn-check" name="ukuran" value="38" id="option1 success-outlined" autocomplete="off">
             <label class="btn btn-outline-success" for="option1 success-outlined">38</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="37" id="option2 success-outlined" autocomplete="off">
+            <input type="radio" class="btn-check" name="ukuran" value="39" id="option2 success-outlined" autocomplete="off">
             <label class="btn btn-outline-success" for="option2 success-outlined">39</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="38" id="option3 success-outlined" autocomplete="off">
+            <input type="radio" class="btn-check" name="ukuran" value="40" id="option3 success-outlined" autocomplete="off">
             <label class="btn btn-outline-success" for="option3 success-outlined">40</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="39" id="option3 success-outlined" autocomplete="off">
-            <label class="btn btn-outline-success" for="option3 success-outlined">41</label>
+            <input type="radio" class="btn-check" name="ukuran" value="41" id="option4 success-outlined" autocomplete="off">
+            <label class="btn btn-outline-success" for="option4 success-outlined">41</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="40" id="option4 success-outlined" autocomplete="off">
-            <label class="btn btn-outline-success" for="option4 success-outlined">42</label>
+            <input type="radio" class="btn-check" name="ukuran" value="42" id="option5 success-outlined" autocomplete="off">
+            <label class="btn btn-outline-success" for="option5 success-outlined">42</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="41" id="option5 success-outlined" autocomplete="off">
-            <label class="btn btn-outline-success" for="option5 success-outlined">43</label>
+            <input type="radio" class="btn-check" name="ukuran" value="43" id="option6 success-outlined" autocomplete="off">
+            <label class="btn btn-outline-success" for="option6 success-outlined">43</label>
 
-            <input type="radio" class="btn-check" name="ukuran" value="42" id="option6 success-outlined" autocomplete="off">
-            <label class="btn btn-outline-success" for="option6 success-outlined">44</label>
+            <input type="radio" class="btn-check" name="ukuran" value="44" id="option7 success-outlined" autocomplete="off">
+            <label class="btn btn-outline-success" for="option7 success-outlined">44</label>
         </div>
         <input type="text" id="tipe" class="invisible" value="{{ $shoe->tipe }}">
         <input type="text" id="merk" class="invisible" value="{{ $shoe->merk }}">
@@ -79,7 +79,7 @@
 
     <script>
         function startWhatsAppChat() {
-            var phoneNumber = '6285701710446';
+            var phoneNumber = '6283827974145';
             var name = document.getElementById('name').value;
             var merk = document.getElementById('merk').value;
             var tipe = document.getElementById('tipe').value;

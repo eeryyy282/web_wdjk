@@ -23,8 +23,6 @@ class AdminController extends Controller
                 ->make(true);
         }
         return view('admin.page.dashboard');
-        // $shoe = Shoe::all();
-        // return view('admin.page.dashboard')->with('shoe', $shoe);
         
     }
 
